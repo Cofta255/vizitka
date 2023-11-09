@@ -11,11 +11,25 @@ p {
   font-size: 16px;
   margin-top: 100;
 }
-
+p.header_text_2 {
+  line-height: 10px;
+}
 a,
 span {
     display: block;
     line-height: 50px;
     border-radius: 10px;
     text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px){
+  h1 {
+    font-size: 20px;
+    margin-top: 100;
+  }
+
+  p {
+    font-size: 12px;
+    margin-top: 100;
 }
