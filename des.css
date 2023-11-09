@@ -23,7 +23,7 @@ span {
     color: black;
 }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 600px) {
   h1 {
     font-size: 2.5em;
     margin-top: 50px;
