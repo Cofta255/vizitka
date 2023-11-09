@@ -22,3 +22,23 @@ span {
     text-decoration: none;
     color: black;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  p {
+    font-size: 12px;
+    margin-top: 50px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttons a {
+    width: 100%;
+  }
+}
