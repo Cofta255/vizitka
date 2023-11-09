@@ -22,14 +22,3 @@ span {
     text-decoration: none;
     color: black;
 }
-
-@media (max-width: 768px){
-  h1 {
-    font-size: 20px;
-    margin-top: 100;
-  }
-
-  p {
-    font-size: 12px;
-    margin-top: 100;
-}
