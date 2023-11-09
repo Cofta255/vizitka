@@ -11,9 +11,11 @@ p {
   font-size: 16px;
   margin-top: 100;
 }
+
 p.header_text_2 {
   line-height: 10px;
 }
+
 a,
 span {
     display: block;
@@ -25,23 +27,29 @@ span {
 
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 11px;
+    font-size: 13px;
     margin-top: 0.1em;
     margin-bottom: 0.3em;
   }
 
   p {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 0.1em;
     margin-bottom: 0.2em;
   }
 
-  .header_block a {
-    height: 100px;
-    margin-bottom: 30px;
-    margin-top: 30px; 
-  {
-  
+  .header_sqar{
+    height: 1000px;
+  }
+
+  p.header_text_2 {
+    line-height: 5px;
+  }
+
+  .header_text{
+    margin-bottom: 15px;
+  }
+
   .buttons {
     flex-direction: column;
   }
