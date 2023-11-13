@@ -12,10 +12,6 @@ p {
   margin-top: 100;
 }
 
-p.header_text_2 {
-  line-height: 10px;
-}
-
 a,
 span {
     display: block;
@@ -25,7 +21,13 @@ span {
     color: black;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+
   h1 {
     font-size: 13px;
     margin-top: 0.1em;
@@ -36,14 +38,6 @@ span {
     font-size: 12px;
     margin-top: 0.1em;
     margin-bottom: 0.2em;
-  }
-
-  .header_sqar{
-    height: 1000px;
-  }
-
-  p.header_text_2 {
-    line-height: 5px;
   }
 
   .header_text{
