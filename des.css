@@ -21,9 +21,10 @@ span {
     color: black;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   body{
     display: flex;
+    flex-basis: auto;
     justify-content: center;
     align-items: stretch;
   }
