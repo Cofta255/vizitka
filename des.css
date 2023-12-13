@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat';
-    background-image: url('fon.png');
+    background-image: url('fon_pk.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #594531;
@@ -22,11 +22,11 @@ h1 {
 .header_block {
     display: block;
     width: 85%; 
-    height: 100px; 
+    height: 200px; 
     border: 10px solid rgba(255, 253, 225, 0); 
     margin: auto; 
     background: rgba(255, 253, 225, 0.7); 
-    margin-top: 130px ;
+    margin-top: 50px ;
     margin-bottom: 35px;
 }
 
@@ -36,14 +36,14 @@ h1 {
     border: 5px solid;  
     border-color: #000000; 
     margin: auto; 
-    margin-top: 5px ; 
+    margin-top: 25px ; 
     background: #000000;
 }
 
  .center_block {
     display: block;
     width: 85%; 
-    height: 100px; 
+    height: 200px; 
     border: 10px solid rgba(0, 0, 0, 0);  
     margin: auto; 
     background: rgba(0, 0, 0, 0.7); 
@@ -56,17 +56,21 @@ h1 {
     border: 5px solid;  
     border-color: #ffffff; 
     margin: auto; 
-    margin-top: 5px ; 
+    margin-top: 25px ; 
     background: #ffffff;
 }
 
 @media screen and (max-width: 600px) {
 
+    body {
+        background-image: url('fon.png');
+    }
     .text {
         margin-top: 10px;
     }
     .header_block {
         height: 180px;
+        margin-top: 130px;
     }
 
     .button_header{
